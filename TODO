@@ -1,0 +1,16 @@
+TODO:
+- Refactor MenuView to be the base class for CueView!
+- Palette system is kinda FUCKED
+- ConfirmView looks shit
+- Remove onscreen log and go to a bar? Instructions for InputView?
+- NotifyView — just a 1second popup?
+- local IP address / port input
+- \n bug with hw::log.print ?
+- refactor hw::log.print to hw::log.printf
+
+SERVER:
+- Refactor / rewrite completely
+- Threadsafe with locks on wfiles & writing to ncurses
+- Midi input
+- More advanced parsing, different note types etc.
+- Settings menu
